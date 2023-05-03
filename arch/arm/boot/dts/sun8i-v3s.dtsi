@@ -505,7 +505,6 @@
 			dmas = <&dma 8>, <&dma 8>;
 			dma-names = "rx", "tx";
 			resets = <&ccu RST_BUS_UART2>;
-			pinctrl-names = "default";
 			status = "disabled";
 		};
 
