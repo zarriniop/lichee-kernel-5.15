@@ -79,16 +79,6 @@
 	status = "okay";
 };
 
-&uart1 {
-	pinctrl-names = "default";
-	status = "okay";
-};
-
-&uart2 {
-	pinctrl-0 = <&uart2_pb_pins>;
-	pinctrl-names = "default";
-	status = "okay";
-};
 
 &lradc {
 	vref-supply = <&reg_vcc3v0>;
