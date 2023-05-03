@@ -96,7 +96,7 @@
 };
 
 &uart2 {
-	pinctrl-0 = <&uart2_pb_pins>;
+	pinctrl-0 = <&uart2_pins>;
 	pinctrl-names = "default";
 	status = "okay";
 };
